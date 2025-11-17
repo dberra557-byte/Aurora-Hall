@@ -1,0 +1,325 @@
+Designed theme: "The Aurora Hall" — premium event center (weddings, conferences, concerts)
+--><!-- File: index.html --><!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Aurora Hall — Home</title>
+  <meta name="description" content="Aurora Hall — premium event center for weddings, conferences, and concerts. Explore venues, schedules, and book your event.">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo"><img src="images/venue.png" alt="Aurora Hall logo" width="48" height="48"><span class="brand">Aurora Hall</span></a>
+      <nav id="main-nav" class="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="#booking">Booking</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button id="nav-toggle" class="nav-toggle" aria-controls="main-nav" aria-expanded="false">Menu</button>
+    </div>
+  </header> <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <h1>Where Moments Become Legendary</h1>
+          <p class="lead">Aurora Hall is a boutique event center offering curated experiences for weddings, conferences, and live events. Discover our spaces, see the calendar, and book your date.</p>
+          <p>
+            <a class="btn primary" href="events.html">Explore Events</a>
+            <a class="btn" href="#booking">Book a Tour</a>
+          </p>
+        </div>
+        <div class="hero-media">
+          <img src="images/hero.jpg" alt="Ballroom set for a wedding at Aurora Hall" class="responsive-img">
+        </div>
+      </div>
+    </section><section class="features container">
+  <h2>Our Offerings</h2>
+  <div class="cards">
+    <article class="card">
+      <h3>Weddings</h3>
+      <p>Custom packages, day-of coordination, and a romantic ballroom for up to 250 guests.</p>
+      <a href="about.html#weddings" class="link-inline">Learn more →</a>
+    </article>
+    <article class="card">
+      <h3>Conferences</h3>
+      <p>Flexible meeting rooms, A/V support, and break-out suites for corporate needs.</p>
+      <a href="events.html#conference" class="link-inline">See schedule →</a>
+    </article>
+    <article class="card">
+      <h3>Performances</h3>
+      <p>Intimate concert stage with professional lighting and acoustics.</p>
+      <a href="events.html#concerts" class="link-inline">Upcoming shows →</a>
+    </article>
+  </div>
+</section>
+
+<section class="schedule container" id="featured-events">
+  <h2>Featured Schedule</h2>
+  <p>Preview of upcoming events — click any event to view details or book.</p>
+
+  <table class="schedule-table">
+    <caption>Upcoming Events — Next 7 Days</caption>
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Event</th>
+        <th>Type</th>
+        <th>Time</th>
+        <th>Tickets</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Nov 10, 2025</td>
+        <td><a href="events.html#holiday-gala">Aurora Holiday Gala</a></td>
+        <td>Concert</td>
+        <td>7:00 PM</td>
+        <td>$45 – $120</td>
+      </tr>
+      <tr>
+        <td>Nov 13, 2025</td>
+        <td><a href="events.html#tech-summit">Tech Innovators Summit</a></td>
+        <td>Conference</td>
+        <td>9:00 AM</td>
+        <td>Free / Paid Workshops</td>
+      </tr>
+      <tr>
+        <td>Nov 15, 2025</td>
+        <td><a href="events.html#wedding-expo">Wedding Showcase</a></td>
+        <td>Expo</td>
+        <td>11:00 AM</td>
+        <td>Free</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<section class="booking container" id="booking">
+  <h2>Request a Booking or Tour</h2>
+  <form id="booking-form" class="form-grid" action="#" method="post" novalidate>
+    <label for="name">Full name</label>
+    <input type="text" id="name" name="name" required placeholder="Your name">
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required placeholder="you@example.com">
+
+    <label for="event-type">Event Type</label>
+    <select id="event-type" name="event-type">
+      <option value="wedding">Wedding</option>
+      <option value="conference">Conference</option>
+      <option value="concert">Concert</option>
+      <option value="other">Other</option>
+    </select>
+
+    <label for="date">Preferred Date</label>
+    <input type="date" id="date" name="date">
+
+    <label for="message">Tell us about your event</label>
+    <textarea id="message" name="message" rows="4" placeholder="How can we help?" required></textarea>
+
+    <div class="form-actions">
+      <button type="submit" class="btn primary">Submit Request</button>
+      <button type="reset" class="btn">Reset</button>
+    </div>
+  </form>
+</section>
+
+<section class="testimonials container">
+  <h2>What Clients Say</h2>
+  <blockquote>
+    "Aurora Hall made our day magical — the team was detail-oriented and the space was stunning." — <strong>J. Park</strong>
+  </blockquote>
+</section>
+
+  </main> <footer class="site-footer" id="contact">
+    <div class="container footer-grid">
+      <div>
+        <h3>Aurora Hall</h3>
+        <p>123 Lumina Way, Cityville — <a href="https://maps.google.com" target="_blank" rel="noopener">Get directions</a></p>
+        <p class="muted">© 2025 Aurora Hall. All rights reserved.</p>
+      </div><div>
+    <h4>Connect</h4>
+    <ul class="social">
+      <li><a href="#" aria-label="Instagram">Instagram</a></li>
+      <li><a href="#" aria-label="Facebook">Facebook</a></li>
+      <li><a href="#" aria-label="Twitter">Twitter</a></li>
+    </ul>
+  </div>
+
+  <div>
+    <h4>Contact</h4>
+    <p>Email: <a href="mailto:hello@aurorahall.com">hello@aurorahall.com</a></p>
+    <p>Phone: <a href="tel:+1234567890">(123) 456-7890</a></p>
+  </div>
+</div>
+
+  </footer> <script src="js/main.js"></script></body>
+</html><!-- File: about.html --><!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>About — Aurora Hall</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo"><img src="images/venue.png" alt="Aurora Hall logo" width="48" height="48"><span class="brand">Aurora Hall</span></a>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="index.html#booking">Booking</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header> <main class="container">
+    <section class="about-hero">
+      <h1>About Aurora Hall</h1>
+      <p class="lead">A boutique venue with a rich history of unforgettable moments.</p>
+    </section><section id="history">
+  <h2>Our History</h2>
+  <p>Aurora Hall opened in 1998 as a restored landmark theater. Over the years we have hosted thousands of events — from intimate ceremonies to city-wide festivals.</p>
+  <img src="images/venue.png" alt="Old archival photo of the venue" class="inline-img">
+</section>
+
+<section id="mission">
+  <h2>Mission</h2>
+  <p>To provide an elevated, stress-free event experience where every detail is handled with care and creativity.</p>
+</section>
+
+<section id="team">
+  <h2>Meet the Team</h2>
+  <ul>
+    <li><strong>Clara Vale</strong> — Venue Director</li>
+    <li><strong>Marcus Lee</strong> — Head of Events</li>
+    <li><strong>Rina Ortiz</strong> — Creative Producer</li>
+  </ul>
+</section>
+
+<section id="weddings">
+  <h2>Weddings at Aurora</h2>
+  <p>We design bespoke ceremonies and receptions. Our wedding packages include catering partners, in-house decor options, and preferred vendor lists.</p>
+  <a class="btn" href="index.html#booking">Request a wedding tour</a>
+</section>
+
+  </main> <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 Aurora Hall</p>
+    </div>
+  </footer> <script src="js/main.js"></script></body>
+</html><!-- File: events.html --><!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Events — Aurora Hall</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo"><img src="images/venue.png" alt="Aurora Hall logo" width="48" height="48"><span class="brand">Aurora Hall</span></a>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="events.html">Events</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header> <main class="container">
+    <h1>Events & Tickets</h1><section id="concerts">
+  <h2>Concerts</h2>
+  <article id="holiday-gala">
+    <h3>Aurora Holiday Gala</h3>
+    <p>Date: Nov 10, 2025 — Time: 7:00 PM</p>
+    <p>Join us for a festive evening of music and celebration.</p>
+  </article>
+</section>
+
+<section id="conference">
+  <h2>Conferences</h2>
+  <article id="tech-summit">
+    <h3>Tech Innovators Summit</h3>
+    <p>Date: Nov 13, 2025 — Time: 9:00 AM</p>
+    <p>A full-day conference featuring panels and workshops.</p>
+  </article>
+</section>
+
+<section id="expo">
+  <h2>Expos</h2>
+  <article id="wedding-expo">
+    <h3>Wedding Showcase</h3>
+    <p>Date: Nov 15, 2025 — Time: 11:00 AM</p>
+    <p>Meet our preferred vendors and see sample setups.</p>
+  </article>
+</section>
+
+<section class="pricing">
+  <h2>Venue Pricing (Sample)</h2>
+  <table class="pricing-table">
+    <caption>Sample rental pricing</caption>
+    <thead>
+      <tr>
+        <th>Room</th>
+        <th>Guests</th>
+        <th>Half-Day</th>
+        <th>Full-Day</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Grand Ballroom</td>
+        <td>Up to 250</td>
+        <td>$2,500</td>
+        <td>$4,500</td>
+      </tr>
+      <tr>
+        <td>Studio Suite</td>
+        <td>Up to 80</td>
+        <td>$900</td>
+        <td>$1,600</td>
+      </tr>
+      <tr>
+        <td>Conference Room</td>
+        <td>Up to 40</td>
+        <td>$350</td>
+        <td>$600</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<section class="contact-booking" id="contact">
+  <h2>Contact & Book</h2>
+  <form id="contact-form" action="#" method="post" class="form-vertical" novalidate>
+    <label for="contact-name">Name</label>
+    <input id="contact-name" name="contact-name" type="text" required>
+
+    <label for="contact-email">Email</label>
+    <input id="contact-email" name="contact-email" type="email" required>
+
+    <label for="contact-message">Message</label>
+    <textarea id="contact-message" name="contact-message" rows="4" required></textarea>
+
+    <button type="submit" class="btn primary">Send Message</button>
+  </form>
+</section>
+
+  </main> <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 Aurora Hall</p>
+   
